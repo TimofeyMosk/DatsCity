@@ -1,8 +1,10 @@
 package main
 
-func main() {
+import "fmt"
 
+func main() {
+	fmt.Println("Hello world")
 }
 
-
-oapi-codegen -package dto -generate types api/openapi.yml > internal/infrastructure/dto/dto-api.gen.go
+// oapi-codegen -package dto -generate types api/openapi.yml > internal/infrastructure/dto/dto-api.gen.go
+// oapi-codegen -package dto -generate types,client,server api/openapi.yml > internal/infrastructure/dto/dto-api.gen.go
