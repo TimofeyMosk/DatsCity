@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Hello world2")
+	fmt.Println("test")
 }
 
 // oapi-codegen -package dto -generate types api/openapi.yml > internal/infrastructure/dto/dto-api.gen.go
